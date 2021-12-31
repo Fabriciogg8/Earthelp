@@ -1,0 +1,54 @@
+/* Recomendable colocar al inicio de cada CSS */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Tamano para que la fuente la puedamos usar en rem */
+html {
+    font-size: 62.5%;
+    font-family:'Palatino';
+}
+
+body {
+    font-size: 1.8rem;
+}
+
+header{
+    width: 100%;
+    /* background-color: #0d5c27; */
+}
+
+nav{
+    float: right;
+    margin-top: 2rem;
+    margin-right: 5rem;
+}
+
+img {
+    max-width: 30rem;
+}
+
+li {
+    list-style: none; 
+    float: left;
+    padding: 2rem;
+} 
+ 
+
+a {
+    color: #0d5c27;
+    text-decoration: none;
+}
+
+li:hover a{
+    color: grey;
+}
+
+main {
+    height: 50rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
